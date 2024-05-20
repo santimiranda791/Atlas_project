@@ -51,7 +51,7 @@ header p {
 	color: white;
 }
 
-.text-head .button p {
+.text-head .button-text-head p {
 	background-color: #00ffaa;
 	border-radius: 30px;
 	padding: 12px 10px;
@@ -64,66 +64,83 @@ header p {
 	cursor: pointer;
 }
 
-.sect-2 {
-	height: 500px;
+.-body-section-1 {
+	height: 700px;
 }
 
-.sect-2 h2 {
+.body-section-1 h2 {
 	text-align: center;
 	font-size: 50px;
 	margin-top: 40px;
 	font-weight: 900;
 }
 
-.sect-2-img {
+.body-section-1-img {
 	display: flex;
 	justify-content: space-around;
 	margin: 100px 50px 50px;
 }
 
-.sect-2-img .img1 {
+.body-section-1-img .img1 {
 	text-align: center;
 	font-size: 20px;
 	width: 30%;
 }
 
-.sect-2-img .img2 {
+.body-section-1-img .img2 {
 	text-align: center;
 	font-size: 20px;
 	width: 30%;
 }
 
-.sect-2-img .img3 {
+.body-section-1-img .img3 {
 	text-align: center;
 	font-size: 20px;
 	width: 30%;
 }
 
-.text-body {
+.body-section-2 {
 	position: relative;
-	padding: 40px 120px;
 	display: flex;
 	justify-content: left;
-	margin-top: 50px;
+	margin-top: 200px;
 	margin-left: 0;
-	height: 400px;
+	height: 500px;
 	background: #ffffff;
 }
+.body-section-2-h2-p{
+	padding: 40px 120px;
+}
 
-.text-body h2 {
+.body-section-2 .triangle{
+	width: 100vw;
+	height: 31.5rem;
+	background-color: #00ffaa;
+	clip-path: polygon(0 88%, 100% 0%, 100% 100%, 0% 100%);
+	position: absolute;
+}
+.body-section-2 img{
+	position: relative;
+	height: 20rem;
+	margin-right: 350px;
+}
+
+.body-section-2 h2 {
 	font-size: 50px;
 	width: 60%;
 	color: rgb(0, 0, 0);
+	position: relative;
 }
 
-.text-body p {
+.body-section-2 p {
 	font-size: 20px;
 	width: 60%;
 	margin-top: 20px;
 	color: rgb(0, 0, 0);
+	position: relative;
 }
 
-.text-body .button-body p {
+.body-section-2 .button-body p {
 	background-color: #09051f;
 	border-radius: 30px;
 	padding: 12px 10px;
@@ -133,33 +150,38 @@ header p {
 	color: #ffffff;
 	margin-top: 50px;
 	cursor: pointer;
+	position: relative;
 }
 
-.sect-body {
+.body-section-3 {
 	position: relative;
 	padding: 40px 120px;
 	display: flex;
 	justify-content: left;
-	margin-top: 50px;
 	margin-left: 0;
 	height: 400px;
 	background-color: #00ffaa;
 }
-
-.sect-body h2 {
+.body-section-3 img{
+	height: 20rem;
+}
+.body-section-3 h2 {
+	margin-left: 200px;
 	font-size: 50px;
 	width: 60%;
 	color: rgb(0, 0, 0);
 }
 
-.sect-body p {
+.body-section-3 p {
+	margin-left: 200px;
 	font-size: 20px;
 	width: 60%;
 	margin-top: 20px;
 	color: rgb(0, 0, 0);
 }
 
-.sect-body .button-body p {
+.body-section-3 .button-body-section-3 p {
+	margin-left: 200px;
 	background-color: #09051f;
 	border-radius: 30px;
 	padding: 12px 10px;
@@ -171,18 +193,18 @@ header p {
 	cursor: pointer;
 }
 
-.sect-5 {
+.body-section-4 {
 	height: 800px;
 }
 
-.sect-5 h2 {
+.body-section-4 h2 {
 	text-align: center;
 	font-size: 50px;
 	margin-top: 40px;
 	font-weight: 900;
 }
 
-.sect-5-img {
+.body-section-4-img {
 	display: flex;
 	justify-content: center;
 }
@@ -339,7 +361,7 @@ header p {
 	font-size: 100px;
 }
 
-.sect-6 {
+.body-section-5 {
 	display: flex;
 	justify-content: space-evenly;
 	height: 200px;
@@ -347,7 +369,44 @@ header p {
 	margin-top: 30px;
 }
 
-.sect-6 img {
+.body-section-5 img {
 	height: 100px;
 	padding-top: 50px;
+}
+.body-section-6 {
+	position: relative;
+	display: flex;
+	justify-content: left;
+	margin-left: 0;
+	height: 700px;
+	background-image: url(/images/contact-bk.jpg);
+}
+.body-section-6-h2-p{
+	padding: 40px 120px;
+	margin-top: 150px;
+	width: 50%;
+}
+.body-section-6 h2 {
+	font-size: 50px;
+	width: 60%;
+	color: rgb(255, 255, 255);
+	position: relative;
+}
+
+.body-section-6 p {
+	font-size: 20px;
+	width: 60%;
+	margin-top: 20px;
+	color: rgb(255, 255, 255);
+	position: relative;
+}
+.body-section-2-inputs{
+		padding: 40px 120px;
+		margin-top: 150px;
+		width: 50%;
+}
+.body-section-2-inputs input{
+	padding: 40px 120px;
+	margin-top: 150px;
+	width: 50%;
 }
