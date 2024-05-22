@@ -400,13 +400,50 @@ header p {
 	color: rgb(255, 255, 255);
 	position: relative;
 }
-.body-section-2-inputs{
-		padding: 40px 120px;
-		margin-top: 150px;
-		width: 50%;
+.body-section-6-inputs{
+		margin-top: 200px;
+	}
+.body-section-6-inputs label{
+	color: #00ffaa;
 }
-.body-section-2-inputs input{
-	padding: 40px 120px;
-	margin-top: 150px;
-	width: 50%;
+.body-section-6-inputs input{
+    border:2px solid #00ffaa;
+	background-color:transparent;
+	position: relative;
+	margin-top: 0px;
+    width: 14.3rem;
+	height: 2rem;
+	border-radius: 5px;
+	margin-left:15px ;
+}
+
+.first-inputs{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	margin-left: 0px;
+}
+.message-input{
+	margin-top: 15px;
+}
+.message-input input{
+	width: 30rem;
+	height: 5rem;
+	margin-top: 0;
+}
+.body-section-6-inputs p {
+	background-color: #00ffaa;
+	border: solid #00ffaa;
+	border-radius: 20px;
+	padding: 12px 10px;
+	width: 30rem;
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+	margin-bottom: 10px;
+	margin-top: 40px;
+	cursor: pointer;
+}
+footer{
+
 }
