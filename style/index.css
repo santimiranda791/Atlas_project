@@ -142,7 +142,7 @@ header p {
 	position: relative;
 }
 
-.body-section-2 .button-body p {
+.body-section-2 .button-body-section-2 p {
 	background-color: #09051f;
 	border-radius: 30px;
 	padding: 12px 10px;
@@ -208,7 +208,7 @@ header p {
 	font-weight: 900;
 }
 
-.body-section-4-img {
+.body-section-4-pricesgit {
 	display: flex;
 	justify-content: center;
 }
